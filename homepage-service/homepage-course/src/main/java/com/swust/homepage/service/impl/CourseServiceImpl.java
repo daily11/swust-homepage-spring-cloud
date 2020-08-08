@@ -6,6 +6,7 @@ import com.swust.homepage.service.ICourseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Arrays;
 import java.util.List;
 
 @Service
@@ -25,5 +26,12 @@ public class CourseServiceImpl implements ICourseService {
     @Override
     public List<HomepageCourse> getCourses() {
         return homepageCourseMapper.getCourses();
+    }
+
+    @Override
+    public List<HomepageCourse> getCoursesByIds(List<Long> ids) {
+        List<HomepageCourse> courseList = this.getCourses();
+        courseList.removeIf(arg -> !ids.contains(arg.getId()));
+        return courseList;
     }
 }

@@ -12,7 +12,7 @@ spring:
   application:
     name: eureka-client-homepage-course # 课程微服务在注册中心中的名称
   datasource:
-    url: jdbc:mysql://localhost:3306/homepage?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
+    url: jdbc:mysql://localhost:3306/homepage_course?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver

@@ -17,4 +17,11 @@ public interface ICourseService {
      * 获取课程信息
      */
     List<HomepageCourse> getCourses();
+
+    /**
+     * 获取课程信息
+     *
+     * @param ids 课程 ID 集合
+     */
+    List<HomepageCourse> getCoursesByIds(List<Long> ids);
 }
