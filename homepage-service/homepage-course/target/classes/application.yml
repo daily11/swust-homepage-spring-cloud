@@ -1,0 +1,18 @@
+server:
+  port: 8001
+  servlet:
+    context-path: /homepage-course
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/
+
+spring:
+  application:
+    name: eureka-client-homepage-course
+  datasource:
+    url: jdbc:mysql://localhost:3306/homepage?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
