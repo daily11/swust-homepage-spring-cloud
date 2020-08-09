@@ -2,14 +2,17 @@ package com.swust.homepage;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.config.server.EnableConfigServer;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /**
  * 1. 只需要使用 @EnableEurekaServer 注解就可以让应用变为 Eureka Server
  * 2. pom 文件中对应到 spring-cloud-starter-netflix-eureka-server
- * Created by Qinyi.
  */
 @EnableEurekaServer
+@EnableConfigServer
+@EnableDiscoveryClient
 @SpringBootApplication
 public class EurekaApplication {
 

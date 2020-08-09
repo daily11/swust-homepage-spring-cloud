@@ -1,11 +1,18 @@
 package com.swust.homepage.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
+import java.io.Serializable;
 import java.util.Date;
 
 @Data
-public class HomepageUserCourse {
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class HomepageUserCourse implements Serializable {
     private Long id;
 
     private Long userId;

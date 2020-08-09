@@ -4,11 +4,10 @@ import com.swust.homepage.entity.vo.CODE;
 import com.swust.homepage.entity.vo.Result;
 import com.swust.homepage.service.ICourseService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.List;
 
 @RestController
 public class CourseController {
@@ -43,7 +42,7 @@ public class CourseController {
      * @param ids 课程ID集合
      */
     @RequestMapping(value = "/getCoursesByIds", method = RequestMethod.POST)
-    public Result getCoursesByIds(List<Long> ids) {
+    public Result getCoursesByIds(@RequestBody Long[] ids) {
         return new Result(CODE.SUCCESS, iCourseService.getCoursesByIds(ids), "success");
     }
 }

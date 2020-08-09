@@ -12,7 +12,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 
-import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -58,11 +57,12 @@ public class UserServiceImpl implements IUserService {
         }
 
         // 3 查询用户课程信息
-        List<Long> ids = userCourseList
+        List<Long> courseIds = userCourseList
                 .stream()
                 .map(HomepageUserCourse::getCouseId)
                 .collect(Collectors.toList());
-        List<HomepageCourse> courseList = courseClient.getCoursesByIds(ids);
+        Long[] ids = courseIds.toArray(new Long[]{});
+        List<HomepageCourse> courseList = (List<HomepageCourse>) courseClient.getCoursesByIds(ids).getData();
 
         // 4 组装返回用户课程信息
         UserCourseVO userCourseVO = UserCourseVO

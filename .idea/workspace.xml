@@ -2,31 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8569d724-11a5-4ef7-a67a-7a81abf6e5ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-eureka/src/main/resources/configs/course-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-eureka/src/main/resources/configs/course-release.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-eureka/src/main/resources/configs/user-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-eureka/src/main/resources/configs/user-release.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-service/homepage-course/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-service/homepage-user/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-eureka/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-eureka/target/classes/com/swust/homepage/EurekaApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-common/target/classes/com/swust/homepage/entity/HomepageCourse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-common/target/classes/com/swust/homepage/entity/HomepageUser$HomepageUserBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-common/target/classes/com/swust/homepage/entity/HomepageUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-common/target/classes/com/swust/homepage/entity/HomepageUserCourse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-common/target/classes/com/swust/homepage/entity/vo/CODE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-common/target/classes/com/swust/homepage/entity/vo/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-common/target/classes/com/swust/homepage/entity/vo/UserCourseVO$UserCourseVOBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-common/target/classes/com/swust/homepage/entity/vo/UserCourseVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/com/swust/homepage/HomepageUserApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/com/swust/homepage/client/CourseClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/com/swust/homepage/client/CourseClientHystrix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/com/swust/homepage/config/ApplicationRunnerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/com/swust/homepage/config/MybatisDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/com/swust/homepage/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/com/swust/homepage/dao/HomepageUserCourseMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/com/swust/homepage/dao/HomepageUserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/com/swust/homepage/service/IUserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/com/swust/homepage/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/mapper/HomepageUserCourseMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/mapper/HomepageUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-eureka/src/main/java/com/swust/homepage/EurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-eureka/src/main/java/com/swust/homepage/EurekaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-common/src/main/java/com/swust/homepage/entity/HomepageCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-common/src/main/java/com/swust/homepage/entity/HomepageCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-common/src/main/java/com/swust/homepage/entity/HomepageUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-common/src/main/java/com/swust/homepage/entity/HomepageUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-common/src/main/java/com/swust/homepage/entity/HomepageUserCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-common/src/main/java/com/swust/homepage/entity/HomepageUserCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-course/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-course/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-course/src/main/java/com/swust/homepage/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-course/src/main/java/com/swust/homepage/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-course/src/main/java/com/swust/homepage/service/ICourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-course/src/main/java/com/swust/homepage/service/ICourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-course/src/main/java/com/swust/homepage/service/impl/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-course/src/main/java/com/swust/homepage/service/impl/CourseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-course/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-course/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-course/src/main/resources/generatorConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/src/main/java/com/swust/homepage/HomepageUserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-user/src/main/java/com/swust/homepage/HomepageUserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/src/main/java/com/swust/homepage/client/CourseClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-user/src/main/java/com/swust/homepage/client/CourseClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/src/main/java/com/swust/homepage/client/CourseClientHystrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-user/src/main/java/com/swust/homepage/client/CourseClientHystrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/src/main/java/com/swust/homepage/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-user/src/main/java/com/swust/homepage/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-user/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +91,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/homepage-service/homepage-user/src/main/java/com/swust/homepage" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../imooc-homepage-spring-cloud" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.31149426" />
@@ -102,14 +103,14 @@
       <recent name="com.swust.homepage" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\java\swust-homepage-spring-cloud\homepage-eureka\src\main\resources\configs" />
+      <recent name="C:\workspace\java\swust-homepage-spring-cloud\homepage-service\homepage-course\src\main\resources" />
       <recent name="C:\workspace\java\swust-homepage-spring-cloud\homepage-service\homepage-user\src\main\java\com\swust\homepage" />
       <recent name="C:\workspace\java\swust-homepage-spring-cloud\homepage-service\homepage-user\src\main\java\com\swust\homepage\config" />
       <recent name="C:\workspace\java\swust-homepage-spring-cloud\homepage-service\homepage-common\src\main\java\com\swust\homepage\entity" />
-      <recent name="C:\workspace\java\swust-homepage-spring-cloud\homepage-service\homepage-user\src\main\java\com\swust\homepage\entity" />
-      <recent name="C:\workspace\java\swust-homepage-spring-cloud\homepage-service\homepage-user\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ZuulGatewayApplication">
+  <component name="RunManager" selected="Spring Boot.HomepageUserApplication">
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="homepage-eureka" />
       <extension name="coverage">
@@ -159,8 +160,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ZuulGatewayApplication" />
         <item itemvalue="Spring Boot.EurekaApplication" />
+        <item itemvalue="Spring Boot.ZuulGatewayApplication" />
         <item itemvalue="Spring Boot.EurekaApplication" />
       </list>
     </recent_temporary>
@@ -189,6 +190,7 @@
       <updated>1596886430696</updated>
       <workItem from="1596886433482" duration="895000" />
       <workItem from="1596891007960" duration="8615000" />
+      <workItem from="1596951681212" duration="5331000" />
     </task>
     <servers />
   </component>
@@ -211,42 +213,42 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1596897622801" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1596891098372">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1596956060909">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1596891098372" />
-    <state width="1237" height="273" key="GridCell.Tab.0.bottom" timestamp="1596943550070">
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1596956060909" />
+    <state width="1237" height="161" key="GridCell.Tab.0.bottom" timestamp="1596956990258">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="273" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1596943550070" />
-    <state width="1237" height="273" key="GridCell.Tab.0.center" timestamp="1596943550070">
+    <state width="1237" height="161" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1596956990258" />
+    <state width="1237" height="161" key="GridCell.Tab.0.center" timestamp="1596956990258">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="273" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1596943550070" />
-    <state width="1237" height="273" key="GridCell.Tab.0.left" timestamp="1596943550070">
+    <state width="1237" height="161" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1596956990258" />
+    <state width="1237" height="161" key="GridCell.Tab.0.left" timestamp="1596956990258">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="273" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1596943550070" />
-    <state width="1237" height="273" key="GridCell.Tab.0.right" timestamp="1596943550070">
+    <state width="1237" height="161" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1596956990258" />
+    <state width="1237" height="161" key="GridCell.Tab.0.right" timestamp="1596956990258">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="273" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1596943550070" />
-    <state width="1237" height="273" key="GridCell.Tab.1.bottom" timestamp="1596943539452">
+    <state width="1237" height="161" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1596956990258" />
+    <state width="1237" height="161" key="GridCell.Tab.1.bottom" timestamp="1596956990258">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="273" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1596943539452" />
-    <state width="1237" height="273" key="GridCell.Tab.1.center" timestamp="1596943539451">
+    <state width="1237" height="161" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1596956990258" />
+    <state width="1237" height="161" key="GridCell.Tab.1.center" timestamp="1596956990258">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="273" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1596943539451" />
-    <state width="1237" height="273" key="GridCell.Tab.1.left" timestamp="1596943539451">
+    <state width="1237" height="161" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1596956990258" />
+    <state width="1237" height="161" key="GridCell.Tab.1.left" timestamp="1596956990258">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="273" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1596943539451" />
-    <state width="1237" height="273" key="GridCell.Tab.1.right" timestamp="1596943539452">
+    <state width="1237" height="161" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1596956990258" />
+    <state width="1237" height="161" key="GridCell.Tab.1.right" timestamp="1596956990258">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="273" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1596943539452" />
+    <state width="1237" height="161" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1596956990258" />
     <state x="122" y="57" key="MergeDialog" timestamp="1596934831046">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -259,10 +261,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="134" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1596935655148" />
-    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1596891012828">
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1596951681651">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1596891012828" />
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1596951681651" />
     <state x="254" y="40" width="773" height="600" key="find.popup" timestamp="1596935217138">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

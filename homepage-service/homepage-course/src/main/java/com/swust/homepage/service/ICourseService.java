@@ -23,5 +23,5 @@ public interface ICourseService {
      *
      * @param ids 课程 ID 集合
      */
-    List<HomepageCourse> getCoursesByIds(List<Long> ids);
+    List<HomepageCourse> getCoursesByIds(Long[] ids);
 }

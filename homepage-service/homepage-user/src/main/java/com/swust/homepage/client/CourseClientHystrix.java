@@ -1,7 +1,10 @@
 package com.swust.homepage.client;
 
 import com.swust.homepage.entity.HomepageCourse;
+import com.swust.homepage.entity.vo.CODE;
+import com.swust.homepage.entity.vo.Result;
 import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.Collections;
 import java.util.List;
@@ -23,7 +26,7 @@ public class CourseClientHystrix implements CourseClient {
     }
 
     @Override
-    public List<HomepageCourse> getCoursesByIds(List<Long> ids) {
-        return Collections.emptyList();
+    public Result getCoursesByIds(@RequestBody Long[] ids) {
+        return new Result(CODE.SUCCESS, Collections.emptyList(), "success");
     }
 }

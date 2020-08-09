@@ -1,0 +1,19 @@
+server:
+  servlet:
+    context-path: /homepage-user # 传入进来的请求 URL 前缀
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/ # 服务注册中心地址
+
+spring:
+  cloud:
+    config:
+      name: user #对应config server Url中的{application}
+      profile: dev #配置环境，对应config server Url中的{profile}
+      #label: trunk #配置分支(不配置则默认：git则是master,svn则是trunk)，
+      uri: http://localhost:8000 #配置中心地址
+#      discovery:
+#        enabled: true #启用服务发现
+#        service-id: homepage-eureka #指定要从eureka获取的config server的服务ID（即：configserverr的applicationName）
