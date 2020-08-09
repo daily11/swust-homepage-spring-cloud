@@ -11,8 +11,9 @@
     <artifactId>homepage-eureka</artifactId>
     <packaging>jar</packaging>
 
-    <!-- eureka server: 提供服务发现与服务注册 -->
+
     <dependencies>
+        <!-- eureka server: 提供服务发现与服务注册 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
