@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="homepage-course" />
         <module name="homepage-geteway" />
-        <module name="homepage-user" />
         <module name="homepage-common" />
+        <module name="homepage-user" />
         <module name="homepage-eureka" />
+        <module name="homepage-course" />
+        <module name="homepage-gateway" />
       </profile>
     </annotationProcessing>
   </component>
@@ -19,6 +20,7 @@
       <module name="homepage-common" options="-parameters" />
       <module name="homepage-course" options="-parameters" />
       <module name="homepage-eureka" options="-parameters" />
+      <module name="homepage-gateway" options="-parameters" />
       <module name="homepage-geteway" options="-parameters" />
       <module name="homepage-service" options="-parameters" />
       <module name="homepage-user" options="-parameters" />

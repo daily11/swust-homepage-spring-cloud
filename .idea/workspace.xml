@@ -2,31 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8569d724-11a5-4ef7-a67a-7a81abf6e5ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/homepage-geteway/homepage-geteway.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homepage-geteway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homepage-geteway/src/main/java/com/swust/homepage/ZuulGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homepage-geteway/src/main/java/com/swust/homepage/filter/AccessLogFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homepage-geteway/src/main/java/com/swust/homepage/filter/PreRequestFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homepage-geteway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-course/target/classes/META-INF/homepage-course.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-course/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-course/target/classes/com/swust/homepage/HomepageCourseApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-course/target/classes/com/swust/homepage/config/ApplicationRunnerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-course/target/classes/com/swust/homepage/config/MybatisDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-course/target/classes/com/swust/homepage/controller/CourseController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-course/target/classes/com/swust/homepage/dao/HomepageCourseMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-course/target/classes/com/swust/homepage/service/ICourseService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-course/target/classes/com/swust/homepage/service/impl/CourseServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-course/target/classes/generatorConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-course/target/classes/mapper/HomepageCourseMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/src/main/java/com/swust/homepage/client/CourseClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-user/src/main/java/com/swust/homepage/client/CourseClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/src/main/java/com/swust/homepage/client/CourseClientHystrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-user/src/main/java/com/swust/homepage/client/CourseClientHystrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/com/swust/homepage/client/CourseClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/com/swust/homepage/client/CourseClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/com/swust/homepage/client/CourseClientHystrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/com/swust/homepage/client/CourseClientHystrix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-eureka/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-eureka/target/classes/com/swust/homepage/EurekaApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-common/target/classes/com/swust/homepage/entity/HomepageCourse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-common/target/classes/com/swust/homepage/entity/HomepageUser$HomepageUserBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-common/target/classes/com/swust/homepage/entity/HomepageUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-common/target/classes/com/swust/homepage/entity/HomepageUserCourse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-common/target/classes/com/swust/homepage/entity/vo/CODE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-common/target/classes/com/swust/homepage/entity/vo/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-common/target/classes/com/swust/homepage/entity/vo/UserCourseVO$UserCourseVOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-common/target/classes/com/swust/homepage/entity/vo/UserCourseVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/com/swust/homepage/HomepageUserApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/com/swust/homepage/client/CourseClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/com/swust/homepage/client/CourseClientHystrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/com/swust/homepage/config/ApplicationRunnerImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/com/swust/homepage/config/MybatisDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/com/swust/homepage/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/com/swust/homepage/dao/HomepageUserCourseMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/com/swust/homepage/dao/HomepageUserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/com/swust/homepage/service/IUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/com/swust/homepage/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/mapper/HomepageUserCourseMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/mapper/HomepageUserMapper.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +56,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3-homepage-user" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -76,6 +81,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -84,7 +90,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/homepage-geteway/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/homepage-service/homepage-user/src/main/java/com/swust/homepage" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.31149426" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -93,14 +102,14 @@
       <recent name="com.swust.homepage" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\workspace\java\swust-homepage-spring-cloud\homepage-geteway\src\main\resources" />
-      <recent name="C:\workspace\java\swust-homepage-spring-cloud\homepage-geteway\src\main\java\com\swust\homepage\filter" />
       <recent name="C:\workspace\java\swust-homepage-spring-cloud\homepage-service\homepage-user\src\main\java\com\swust\homepage" />
       <recent name="C:\workspace\java\swust-homepage-spring-cloud\homepage-service\homepage-user\src\main\java\com\swust\homepage\config" />
       <recent name="C:\workspace\java\swust-homepage-spring-cloud\homepage-service\homepage-common\src\main\java\com\swust\homepage\entity" />
+      <recent name="C:\workspace\java\swust-homepage-spring-cloud\homepage-service\homepage-user\src\main\java\com\swust\homepage\entity" />
+      <recent name="C:\workspace\java\swust-homepage-spring-cloud\homepage-service\homepage-user\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.HomepageUserApplication">
+  <component name="RunManager" selected="Spring Boot.ZuulGatewayApplication">
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="homepage-eureka" />
       <extension name="coverage">
@@ -129,7 +138,7 @@
       </method>
     </configuration>
     <configuration name="ZuulGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="homepage-geteway" />
+      <module name="homepage-gateway" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.swust.homepage.*" />
@@ -137,13 +146,21 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.swust.homepage.ZuulGatewayApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.HomepageCourseApplication" />
+      <item itemvalue="Spring Boot.HomepageUserApplication" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
+      <item itemvalue="Spring Boot.ZuulGatewayApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ZuulGatewayApplication" />
+        <item itemvalue="Spring Boot.EurekaApplication" />
         <item itemvalue="Spring Boot.EurekaApplication" />
       </list>
     </recent_temporary>
@@ -171,8 +188,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596886430696</updated>
       <workItem from="1596886433482" duration="895000" />
-      <workItem from="1596891007960" duration="8748000" />
-      <workItem from="1596933152624" duration="1357000" />
+      <workItem from="1596891007960" duration="8615000" />
     </task>
     <servers />
   </component>
@@ -183,58 +199,82 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="277" y="0" width="741" height="680" key="#ZuulGatewayApplication" timestamp="1596935150438">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="277" y="0" width="741" height="680" key="#ZuulGatewayApplication/0.0.1280.680@0.0.1280.680" timestamp="1596935150438" />
+    <state x="1" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596935477718">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="1" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1596935477718" />
     <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser" timestamp="1596897622801">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1596897622801" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1596933610904">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1596891098372">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1596933610904" />
-    <state width="1237" height="179" key="GridCell.Tab.0.bottom" timestamp="1596934507405">
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1596891098372" />
+    <state width="1237" height="179" key="GridCell.Tab.0.bottom" timestamp="1596935448618">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="179" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1596934507405" />
-    <state width="1237" height="179" key="GridCell.Tab.0.center" timestamp="1596934507404">
+    <state width="1237" height="179" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1596935448618" />
+    <state width="1237" height="179" key="GridCell.Tab.0.center" timestamp="1596935448618">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="179" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1596934507404" />
-    <state width="1237" height="179" key="GridCell.Tab.0.left" timestamp="1596934507404">
+    <state width="1237" height="179" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1596935448618" />
+    <state width="1237" height="179" key="GridCell.Tab.0.left" timestamp="1596935448618">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="179" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1596934507404" />
-    <state width="1237" height="179" key="GridCell.Tab.0.right" timestamp="1596934507405">
+    <state width="1237" height="179" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1596935448618" />
+    <state width="1237" height="179" key="GridCell.Tab.0.right" timestamp="1596935448618">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="179" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1596934507405" />
-    <state width="1237" height="179" key="GridCell.Tab.1.bottom" timestamp="1596934507405">
+    <state width="1237" height="179" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1596935448618" />
+    <state width="1237" height="179" key="GridCell.Tab.1.bottom" timestamp="1596935448618">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="179" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1596934507405" />
-    <state width="1237" height="179" key="GridCell.Tab.1.center" timestamp="1596934507405">
+    <state width="1237" height="179" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1596935448618" />
+    <state width="1237" height="179" key="GridCell.Tab.1.center" timestamp="1596935448618">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="179" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1596934507405" />
-    <state width="1237" height="179" key="GridCell.Tab.1.left" timestamp="1596934507405">
+    <state width="1237" height="179" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1596935448618" />
+    <state width="1237" height="179" key="GridCell.Tab.1.left" timestamp="1596935448618">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="179" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1596934507405" />
-    <state width="1237" height="179" key="GridCell.Tab.1.right" timestamp="1596934507405">
+    <state width="1237" height="179" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1596935448618" />
+    <state width="1237" height="179" key="GridCell.Tab.1.right" timestamp="1596935448618">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="179" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1596934507405" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1596892363191">
+    <state width="1237" height="179" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1596935448618" />
+    <state x="122" y="57" key="MergeDialog" timestamp="1596934831046">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1596892363191" />
-    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1596933263300">
+    <state x="122" y="57" key="MergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1596934831046" />
+    <state x="351" y="57" key="MultipleFileMergeDialog" timestamp="1596934831067">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1596933263300" />
-    <state x="56" y="58" key="new project wizard" timestamp="1596933693965">
+    <state x="351" y="57" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1596934831067" />
+    <state x="134" y="0" key="SettingsEditor" timestamp="1596935655148">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="56" y="58" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1596933693965" />
+    <state x="134" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1596935655148" />
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1596891012828">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1596891012828" />
+    <state x="254" y="40" width="773" height="600" key="find.popup" timestamp="1596935217138">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="254" y="40" width="773" height="600" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1596935217138" />
+    <state x="347" y="53" key="git4idea.branch.GitSmartOperationDialog" timestamp="1596934818862">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="347" y="53" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.680@0.0.1280.680" timestamp="1596934818862" />
+    <state x="56" y="58" key="new project wizard" timestamp="1596894850500">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="56" y="58" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1596894850500" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1596896186014">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
