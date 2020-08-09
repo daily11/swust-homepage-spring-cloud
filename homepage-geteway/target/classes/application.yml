@@ -1,0 +1,21 @@
+server:
+  port: 8003
+spring:
+  application:
+    name: homepage-gateway  # 服务名称
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/ # 服务注册中心地址
+
+zuul:
+  prefix: /imooc
+  routes: # 配置路由
+    course:
+      path: /homepage-course/**
+      serviceId: eureka-client-homepage-course  # homepage-course 开头的请求跳转到  eureka-client-homepage-course服务
+      strip-prefix: false
+    user:
+      path: /homepage-user/**
+      serviceId: eureka-client-homepage-user  # homepage-course 开头的请求跳转到  eureka-client-homepage-user服务
+      strip-prefix: false

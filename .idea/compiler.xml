@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="homepage-course" />
+        <module name="homepage-geteway" />
         <module name="homepage-user" />
         <module name="homepage-common" />
         <module name="homepage-eureka" />
@@ -18,6 +19,7 @@
       <module name="homepage-common" options="-parameters" />
       <module name="homepage-course" options="-parameters" />
       <module name="homepage-eureka" options="-parameters" />
+      <module name="homepage-geteway" options="-parameters" />
       <module name="homepage-service" options="-parameters" />
       <module name="homepage-user" options="-parameters" />
     </option>

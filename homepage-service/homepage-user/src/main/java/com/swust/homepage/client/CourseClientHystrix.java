@@ -8,7 +8,6 @@ import java.util.List;
 
 /**
  * <h1>熔断降级</h1>
- * Created by Qinyi.
  */
 @Component
 public class CourseClientHystrix implements CourseClient {
