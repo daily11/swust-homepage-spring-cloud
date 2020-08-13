@@ -1,0 +1,52 @@
+2020-08-13 21:02:40.446 [main] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335] [,] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-13 21:02:41.113 [main] INFO  [org.springframework.cloud.config.client.ConfigServicePropertySourceLocator:241] [,] - Fetching config from server at : http://localhost:8000
+2020-08-13 21:02:41.804 [main] INFO  [org.springframework.cloud.config.client.ConfigServicePropertySourceLocator:159] [,] - Located environment: name=course, profiles=[dev], label=null, version=null, state=null
+2020-08-13 21:02:41.804 [main] INFO  [org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration:102] [,] - Located property source: OriginTrackedCompositePropertySource {name='configService', propertySources=[OriginTrackedMapPropertySource {name='classpath:/configs/course-dev.properties'}]}
+2020-08-13 21:02:41.926 [main] INFO  [com.swust.homepage.HomepageCourseApplication:651] [,] - No active profile set, falling back to default profiles: default
+2020-08-13 21:02:43.050 [main] INFO  [org.springframework.cloud.context.scope.GenericScope:295] [,] - BeanFactory id=a98863c4-5ffc-39d6-97c6-c41a778b4445
+2020-08-13 21:02:43.316 [main] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335] [,] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-13 21:02:43.614 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] [,] - Tomcat initialized with port(s): 8001 (http)
+2020-08-13 21:02:43.622 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] [,] - Initializing ProtocolHandler ["http-nio-8001"]
+2020-08-13 21:02:43.622 [main] INFO  [org.apache.catalina.core.StandardService:173] [,] - Starting service [Tomcat]
+2020-08-13 21:02:43.622 [main] INFO  [org.apache.catalina.core.StandardEngine:173] [,] - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-13 21:02:43.840 [main] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/homepage-course]:173] [,] - Initializing Spring embedded WebApplicationContext
+2020-08-13 21:02:43.840 [main] INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:285] [,] - Root WebApplicationContext: initialization completed in 1899 ms
+2020-08-13 21:02:44.104 [main] WARN  [org.springframework.cloud.sleuth.zipkin2.ZipkinAutoConfiguration:114] [,] - Check result of the [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@2c748a15}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: [Empty JSON_V2 message]}]
+2020-08-13 21:02:44.703 [main] WARN  [com.netflix.config.sources.URLConfigurationSource:121] [,] - No URLs will be polled as dynamic configuration sources.
+2020-08-13 21:02:44.703 [main] INFO  [com.netflix.config.sources.URLConfigurationSource:122] [,] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-13 21:02:44.707 [main] WARN  [com.netflix.config.sources.URLConfigurationSource:121] [,] - No URLs will be polled as dynamic configuration sources.
+2020-08-13 21:02:44.707 [main] INFO  [com.netflix.config.sources.URLConfigurationSource:122] [,] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-13 21:02:44.911 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:181] [,] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-13 21:02:47.107 [main] WARN  [org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:106] [,] - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-08-13 21:02:47.642 [main] WARN  [org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81] [,] - Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2020-08-13 21:02:47.823 [main] INFO  [org.springframework.cloud.netflix.eureka.InstanceInfoFactory:72] [,] - Setting initial instance status as: STARTING
+2020-08-13 21:02:47.859 [main] INFO  [com.netflix.discovery.DiscoveryClient:365] [,] - Initializing Eureka in region us-east-1
+2020-08-13 21:02:48.242 [main] INFO  [com.netflix.discovery.provider.DiscoveryJerseyProvider:70] [,] - Using JSON encoding codec LegacyJacksonJson
+2020-08-13 21:02:48.242 [main] INFO  [com.netflix.discovery.provider.DiscoveryJerseyProvider:71] [,] - Using JSON decoding codec LegacyJacksonJson
+2020-08-13 21:02:48.334 [main] INFO  [com.netflix.discovery.provider.DiscoveryJerseyProvider:80] [,] - Using XML encoding codec XStreamXml
+2020-08-13 21:02:48.334 [main] INFO  [com.netflix.discovery.provider.DiscoveryJerseyProvider:81] [,] - Using XML decoding codec XStreamXml
+2020-08-13 21:02:48.546 [main] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-08-13 21:02:48.755 [main] INFO  [com.netflix.discovery.DiscoveryClient:976] [,] - Disable delta property : false
+2020-08-13 21:02:48.755 [main] INFO  [com.netflix.discovery.DiscoveryClient:977] [,] - Single vip registry refresh property : null
+2020-08-13 21:02:48.756 [main] INFO  [com.netflix.discovery.DiscoveryClient:978] [,] - Force full registry fetch : false
+2020-08-13 21:02:48.756 [main] INFO  [com.netflix.discovery.DiscoveryClient:979] [,] - Application is null : false
+2020-08-13 21:02:48.756 [main] INFO  [com.netflix.discovery.DiscoveryClient:980] [,] - Registered Applications size is zero : true
+2020-08-13 21:02:48.756 [main] INFO  [com.netflix.discovery.DiscoveryClient:982] [,] - Application version is -1: true
+2020-08-13 21:02:48.756 [main] INFO  [com.netflix.discovery.DiscoveryClient:1065] [,] - Getting all instance registry info from the eureka server
+2020-08-13 21:02:48.852 [main] INFO  [com.netflix.discovery.DiscoveryClient:1074] [,] - The response status is 200
+2020-08-13 21:02:48.854 [main] INFO  [com.netflix.discovery.DiscoveryClient:1288] [,] - Starting heartbeat executor: renew interval is: 30
+2020-08-13 21:02:48.856 [main] INFO  [com.netflix.discovery.InstanceInfoReplicator:60] [,] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-08-13 21:02:48.859 [main] INFO  [com.netflix.discovery.DiscoveryClient:465] [,] - Discovery Client initialized at timestamp 1597323768858 with initial instances count: 1
+2020-08-13 21:02:48.865 [main] INFO  [org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry:41] [,] - Registering application EUREKA-CLIENT-HOMEPAGE-COURSE with eureka with status UP
+2020-08-13 21:02:48.865 [main] INFO  [com.netflix.discovery.DiscoveryClient:1323] [,] - Saw local status change event StatusChangeEvent [timestamp=1597323768865, current=UP, previous=STARTING]
+2020-08-13 21:02:48.868 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient:844] [,] - DiscoveryClient_EUREKA-CLIENT-HOMEPAGE-COURSE/DESKTOP-P8HKM53:eureka-client-homepage-course:8001: registering service...
+2020-08-13 21:02:48.868 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] [,] - Starting ProtocolHandler ["http-nio-8001"]
+2020-08-13 21:02:48.897 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] [,] - Tomcat started on port(s): 8001 (http) with context path '/homepage-course'
+2020-08-13 21:02:48.897 [main] INFO  [org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration:145] [,] - Updating port to 8001
+2020-08-13 21:02:48.903 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient:853] [,] - DiscoveryClient_EUREKA-CLIENT-HOMEPAGE-COURSE/DESKTOP-P8HKM53:eureka-client-homepage-course:8001 - registration status: 204
+2020-08-13 21:02:49.318 [main] INFO  [com.swust.homepage.HomepageCourseApplication:61] [,] - Started HomepageCourseApplication in 10.041 seconds (JVM running for 12.213)
+2020-08-13 21:02:49.320 [main] INFO  [com.swust.homepage.config.ApplicationRunnerImpl:19] [,] - --->eureka-client-homepage-course启动成功！
+2020-08-13 21:04:45.668 [http-nio-8001-exec-1] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/homepage-course]:173] [,] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-13 21:04:45.668 [http-nio-8001-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet:525] [,] - Initializing Servlet 'dispatcherServlet'
+2020-08-13 21:04:45.681 [http-nio-8001-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet:547] [,] - Completed initialization in 13 ms
+2020-08-13 21:04:46.007 [http-nio-8001-exec-1] INFO  [com.alibaba.druid.pool.DruidDataSource:928] [f7b04c5c38a6d1a6,c01e90344c556750] - {dataSource-1} inited

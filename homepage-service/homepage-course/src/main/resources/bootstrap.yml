@@ -17,3 +17,8 @@ spring:
 #      discovery:
 #        enabled: true #启用服务发现
 #        service-id: homepage-eureka #指定要从eureka获取的config server的服务ID（即：configserverr的applicationName）
+  sleuth:
+    sampler:
+      percentage: 1
+  zipkin:
+    base-url: http://localhost:9411

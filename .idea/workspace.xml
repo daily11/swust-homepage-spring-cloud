@@ -2,16 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8569d724-11a5-4ef7-a67a-7a81abf6e5ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/homepage-gateway/src/main/resources/log4j2.component.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homepage-gateway/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/house-debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/house-error.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/house-info.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/house-warn.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-eureka/src/main/resources/log4j2.component.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-eureka/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-service/homepage-common/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-service/homepage-common/src/main/resources/log4j2.component.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-service/homepage-common/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-service/homepage-course/src/main/resources/log4j2.component.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-service/homepage-course/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-service/homepage-user/src/main/resources/log4j2.component.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-service/homepage-user/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/course/house-debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/course/house-error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/course/house-info.2020-08-13-20.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/course/house-info.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/course/house-warn.2020-08-13-20.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/course/house-warn.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/eureka/house-debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/eureka/house-error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/eureka/house-info.2020-08-13-20.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/eureka/house-info.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/eureka/house-warn.2020-08-13-20.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/eureka/house-warn.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/gateway/house-debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/gateway/house-error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/gateway/house-info.2020-08-13-20.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/gateway/house-info.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/gateway/house-warn.2020-08-13-20.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/gateway/house-warn.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/user/house-debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/user/house-error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/user/house-info.2020-08-13-20.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/user/house-info.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/user/house-warn.2020-08-13-20.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/user/house-warn.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-eureka/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homepage-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-course/target/classes/com/swust/homepage/controller/CourseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-course/target/classes/com/swust/homepage/controller/CourseController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/com/swust/homepage/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/com/swust/homepage/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-gateway/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-gateway/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-gateway/target/classes/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-gateway/target/classes/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-course/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-course/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-course/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-course/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-course/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-course/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-user/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/house-debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/house-error.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/house-info.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/house-warn.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +93,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\16632\apache-maven-3.6.3\repository" />
+        <option name="mavenHome" value="$USER_HOME$/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\Users\16632\apache-maven-3.6.3\conf\settings-ali.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -70,29 +120,31 @@
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/homepage-gateway/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/homepage-eureka/src/main/resources" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.31149426" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.swust.homepage" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\java\swust-homepage-spring-cloud\homepage-eureka\src\main\resources" />
       <recent name="C:\workspace\java\swust-homepage-spring-cloud\homepage-gateway\src\main\resources" />
+      <recent name="C:\workspace\java\swust-homepage-spring-cloud\homepage-service\homepage-zipkin\src\main\resources" />
       <recent name="C:\workspace\java\swust-homepage-spring-cloud\homepage-eureka\src\main\resources\configs" />
-      <recent name="C:\workspace\java\swust-homepage-spring-cloud\homepage-service\homepage-course\src\main\resources" />
-      <recent name="C:\workspace\java\swust-homepage-spring-cloud\homepage-service\homepage-user\src\main\java\com\swust\homepage" />
-      <recent name="C:\workspace\java\swust-homepage-spring-cloud\homepage-service\homepage-user\src\main\java\com\swust\homepage\config" />
+      <recent name="C:\workspace\java\swust-homepage-spring-cloud\homepage-service\homepage-zipkin\src\main\java\com\swust\homepage" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -172,7 +224,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -195,7 +247,11 @@
       <workItem from="1596891007960" duration="8615000" />
       <workItem from="1596951681212" duration="5331000" />
       <workItem from="1597188140277" duration="2625000" />
-      <workItem from="1597230305467" duration="1755000" />
+      <workItem from="1597230305467" duration="2740000" />
+      <workItem from="1597233152890" duration="5318000" />
+      <workItem from="1597241608604" duration="864000" />
+      <workItem from="1597276768052" duration="2707000" />
+      <workItem from="1597316673757" duration="7149000" />
     </task>
     <servers />
   </component>
@@ -206,6 +262,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="277" y="0" width="741" height="680" key="#ZipkinApplication" timestamp="1597322351589">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="277" y="0" width="741" height="680" key="#ZipkinApplication/0.0.1280.680@0.0.1280.680" timestamp="1597322351589" />
     <state x="277" y="0" width="741" height="680" key="#ZuulGatewayApplication" timestamp="1596935150438">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -214,46 +274,58 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="1" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1596935477718" />
+    <state x="346" y="144" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597322847135">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="346" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1597322847135" />
     <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser" timestamp="1596897622801">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1596897622801" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1597190246902">
+    <state x="488" y="230" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1597240985646">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1597190246902" />
-    <state width="905" height="163" key="GridCell.Tab.0.bottom" timestamp="1597232014891">
+    <state x="488" y="230" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.680@0.0.1280.680" timestamp="1597240985645" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1597320541087">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="905" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597232014891" />
-    <state width="905" height="163" key="GridCell.Tab.0.center" timestamp="1597232014890">
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1597320541087" />
+    <state width="905" height="198" key="GridCell.Tab.0.bottom" timestamp="1597323926443">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="905" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1597232014890" />
-    <state width="905" height="163" key="GridCell.Tab.0.left" timestamp="1597232014890">
+    <state width="905" height="198" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597323926443" />
+    <state width="905" height="198" key="GridCell.Tab.0.center" timestamp="1597323926443">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="905" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1597232014890" />
-    <state width="905" height="163" key="GridCell.Tab.0.right" timestamp="1597232014890">
+    <state width="905" height="198" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1597323926443" />
+    <state width="905" height="198" key="GridCell.Tab.0.left" timestamp="1597323926443">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="905" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1597232014890" />
-    <state width="905" height="163" key="GridCell.Tab.1.bottom" timestamp="1597232014891">
+    <state width="905" height="198" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1597323926443" />
+    <state width="905" height="198" key="GridCell.Tab.0.right" timestamp="1597323926443">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="905" height="163" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597232014891" />
-    <state width="905" height="163" key="GridCell.Tab.1.center" timestamp="1597232014891">
+    <state width="905" height="198" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1597323926443" />
+    <state width="905" height="198" key="GridCell.Tab.1.bottom" timestamp="1597323926443">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="905" height="163" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1597232014891" />
-    <state width="905" height="163" key="GridCell.Tab.1.left" timestamp="1597232014891">
+    <state width="905" height="198" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597323926443" />
+    <state width="905" height="198" key="GridCell.Tab.1.center" timestamp="1597323926443">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="905" height="163" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1597232014891" />
-    <state width="905" height="163" key="GridCell.Tab.1.right" timestamp="1597232014891">
+    <state width="905" height="198" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1597323926443" />
+    <state width="905" height="198" key="GridCell.Tab.1.left" timestamp="1597323926443">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="905" height="163" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1597232014891" />
+    <state width="905" height="198" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1597323926443" />
+    <state width="905" height="198" key="GridCell.Tab.1.right" timestamp="1597323926443">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="905" height="198" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1597323926443" />
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1597241179856">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1597241179856" />
     <state x="122" y="57" key="MergeDialog" timestamp="1596934831046">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -262,14 +334,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="351" y="57" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1596934831067" />
-    <state x="134" y="0" key="SettingsEditor" timestamp="1596935655148">
+    <state x="134" y="0" key="SettingsEditor" timestamp="1597320542718">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="134" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1596935655148" />
-    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1597188141503">
+    <state x="134" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1597320542718" />
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1597316706966">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1597188141503" />
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1597316706966" />
     <state x="254" y="40" width="773" height="600" key="find.popup" timestamp="1596935217138">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -278,10 +350,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="347" y="53" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.680@0.0.1280.680" timestamp="1596934818862" />
-    <state x="56" y="58" key="new project wizard" timestamp="1596894850500">
+    <state x="56" y="29" key="new project wizard" timestamp="1597316759765">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="56" y="58" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1596894850500" />
+    <state x="56" y="29" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1597316759765" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1596896186014">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

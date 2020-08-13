@@ -1,8 +1,15 @@
 server:
   port: 8003
+
 spring:
   application:
     name: homepage-gateway  # 服务名称
+  sleuth:
+    sampler:
+      percentage: 1
+  zipkin:
+    base-url: http://localhost:9411
+
 eureka:
   client:
     service-url:

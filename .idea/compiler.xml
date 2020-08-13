@@ -2,18 +2,23 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="homepage-user" />
         <module name="homepage-geteway" />
         <module name="homepage-common" />
-        <module name="homepage-user" />
         <module name="homepage-eureka" />
         <module name="homepage-course" />
         <module name="homepage-gateway" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="homepage-zipkin" target="1.8" />
+      <module name="zipkin" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -24,6 +29,8 @@
       <module name="homepage-geteway" options="-parameters" />
       <module name="homepage-service" options="-parameters" />
       <module name="homepage-user" options="-parameters" />
+      <module name="homepage-zipkin" options="" />
+      <module name="zipkin" options="" />
     </option>
   </component>
 </project>

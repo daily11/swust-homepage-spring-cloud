@@ -9,6 +9,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/homepage-service/homepage-zipkin/pom.xml" />
         <option value="$PROJECT_DIR$/homepage-user/pom.xml" />
       </set>
     </option>

@@ -9,8 +9,8 @@
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level [%logger{50}:%L] [%X{X-B3-TraceId},%X{X-B3-SpanId}] - %msg%n" charset="UTF-8"/>
         </Console>
 
-        <RollingRandomAccessFile name="FILE-INFO" fileName="logs/gateway/house-info.log"
-            filePattern="logs/gateway/house-info.%d{yyyy-MM-dd-HH}.log">
+        <RollingRandomAccessFile name="FILE-INFO" fileName="logs/course/house-info.log"
+            filePattern="logs/course/house-info.%d{yyyy-MM-dd-HH}.log">
             <ThresholdFilter level="info" onMatch="ACCEPT" onMismatch="DENY" />
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level [%logger{50}:%L] [%X{X-B3-TraceId},%X{X-B3-SpanId}] - %msg%n" charset="UTF-8" />
             <TimeBasedTriggeringPolicy  interval="1" />
@@ -23,8 +23,8 @@
         </RollingRandomAccessFile>
 
 
-        <RollingRandomAccessFile name="FILE-DEBUG" fileName="logs/gateway/house-debug.log"
-            filePattern="logs/gateway/house-debug.%d{yyyy-MM-dd-HH}.log">
+        <RollingRandomAccessFile name="FILE-DEBUG" fileName="logs/course/house-debug.log"
+            filePattern="logs/course/house-debug.%d{yyyy-MM-dd-HH}.log">
             <ThresholdFilter level="debug" onMatch="ACCEPT" onMismatch="DENY" />
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS}  [%t] %-5level [%logger{50}:%L] [%X{X-B3-TraceId},%X{X-B3-SpanId},%X{X-B3-ParentSpanId}] - %msg%n" charset="UTF-8" />
             <TimeBasedTriggeringPolicy  interval="1" />
@@ -36,8 +36,8 @@
             </DefaultRolloverStrategy>
         </RollingRandomAccessFile>
 
-        <RollingRandomAccessFile name="FILE-WARN" fileName="logs/gateway/house-warn.log"
-            filePattern="logs/gateway/house-warn.%d{yyyy-MM-dd-HH}.log">
+        <RollingRandomAccessFile name="FILE-WARN" fileName="logs/course/house-warn.log"
+            filePattern="logs/course/house-warn.%d{yyyy-MM-dd-HH}.log">
             <ThresholdFilter level="warn" onMatch="ACCEPT" onMismatch="DENY" />
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level [%logger{50}:%L] [%X{X-B3-TraceId},%X{X-B3-SpanId}] - %msg%n" charset="UTF-8" />
             <TimeBasedTriggeringPolicy  interval="1" />
@@ -49,8 +49,8 @@
             </DefaultRolloverStrategy>
         </RollingRandomAccessFile>
 
-        <RollingRandomAccessFile name="FILE-ERROR" fileName="logs/gateway/house-error.log"
-            filePattern="logs/gateway/house-error.%d{yyyy-MM-dd-HH}.log">
+        <RollingRandomAccessFile name="FILE-ERROR" fileName="logs/course/house-error.log"
+            filePattern="logs/course/house-error.%d{yyyy-MM-dd-HH}.log">
             <ThresholdFilter level="error" onMatch="ACCEPT" onMismatch="DENY" />
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level [%logger{50}:%L] [%X{X-B3-TraceId},%X{X-B3-SpanId}] - %msg%n" charset="UTF-8" />
             <TimeBasedTriggeringPolicy  interval="1" />
