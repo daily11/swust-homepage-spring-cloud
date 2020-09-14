@@ -1,6 +1,0 @@
-2020-08-15 09:00:33.358 [Eureka-EvictionTimer] INFO  [com.netflix.eureka.registry.AbstractInstanceRegistry:1250] [,] - Running the evict task with compensationTime 0ms
-2020-08-15 09:01:33.359 [Eureka-EvictionTimer] INFO  [com.netflix.eureka.registry.AbstractInstanceRegistry:1250] [,] - Running the evict task with compensationTime 0ms
-2020-08-15 09:02:33.198 [Eureka-PeerNodesUpdater] WARN  [com.netflix.eureka.cluster.PeerEurekaNodes:155] [,] - The replica size seems to be empty. Check the route 53 DNS Registry
-2020-08-15 09:02:33.359 [Eureka-EvictionTimer] INFO  [com.netflix.eureka.registry.AbstractInstanceRegistry:1250] [,] - Running the evict task with compensationTime 0ms
-2020-08-15 09:03:33.359 [Eureka-EvictionTimer] INFO  [com.netflix.eureka.registry.AbstractInstanceRegistry:1250] [,] - Running the evict task with compensationTime 0ms
-2020-08-15 09:04:33.359 [Eureka-EvictionTimer] INFO  [com.netflix.eureka.registry.AbstractInstanceRegistry:1250] [,] - Running the evict task with compensationTime 0ms

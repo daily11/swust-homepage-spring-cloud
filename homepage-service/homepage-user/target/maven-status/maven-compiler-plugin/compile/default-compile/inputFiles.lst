@@ -1,0 +1,10 @@
+C:\workspace\java\swust-homepage-spring-cloud\homepage-service\homepage-user\src\main\java\com\swust\homepage\config\ApplicationRunnerImpl.java
+C:\workspace\java\swust-homepage-spring-cloud\homepage-service\homepage-user\src\main\java\com\swust\homepage\service\impl\UserServiceImpl.java
+C:\workspace\java\swust-homepage-spring-cloud\homepage-service\homepage-user\src\main\java\com\swust\homepage\controller\UserController.java
+C:\workspace\java\swust-homepage-spring-cloud\homepage-service\homepage-user\src\main\java\com\swust\homepage\dao\HomepageUserCourseMapper.java
+C:\workspace\java\swust-homepage-spring-cloud\homepage-service\homepage-user\src\main\java\com\swust\homepage\config\MybatisDB.java
+C:\workspace\java\swust-homepage-spring-cloud\homepage-service\homepage-user\src\main\java\com\swust\homepage\service\IUserService.java
+C:\workspace\java\swust-homepage-spring-cloud\homepage-service\homepage-user\src\main\java\com\swust\homepage\client\CourseClientHystrix.java
+C:\workspace\java\swust-homepage-spring-cloud\homepage-service\homepage-user\src\main\java\com\swust\homepage\client\CourseClient.java
+C:\workspace\java\swust-homepage-spring-cloud\homepage-service\homepage-user\src\main\java\com\swust\homepage\HomepageUserApplication.java
+C:\workspace\java\swust-homepage-spring-cloud\homepage-service\homepage-user\src\main\java\com\swust\homepage\dao\HomepageUserMapper.java

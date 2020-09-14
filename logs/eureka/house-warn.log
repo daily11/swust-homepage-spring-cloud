@@ -1,1 +1,0 @@
-2020-08-15 09:02:33.198 [Eureka-PeerNodesUpdater] WARN  [com.netflix.eureka.cluster.PeerEurekaNodes:155] [,] - The replica size seems to be empty. Check the route 53 DNS Registry
