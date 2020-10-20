@@ -2,92 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8569d724-11a5-4ef7-a67a-7a81abf6e5ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ELK.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homepage-eureka/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homepage-gateway/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homepage-service/homepage-common/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homepage-service/homepage-course/src/main/java/com/swust/homepage/config/FilterConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homepage-service/homepage-course/src/main/java/com/swust/homepage/filter/CourseFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homepage-service/homepage-course/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homepage-service/homepage-user/src/main/java/com/swust/homepage/config/FilterConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homepage-service/homepage-user/src/main/java/com/swust/homepage/filter/UserFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/house-info-course.2020-09-14.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/house-info-eureka.2020-09-14.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/house-info-gateway.2020-09-14.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/house-info-user.2020-09-14.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/house-info-course.2020-10-20.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/house-info-gateway.2020-10-20.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/house-info-user.2020-10-20.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-eureka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-eureka/src/main/resources/configs/course-release.properties" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-eureka/src/main/resources/configs/course-release.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-eureka/src/main/resources/configs/user-release.properties" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-eureka/src/main/resources/configs/user-release.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-eureka/src/main/resources/log4j2.component.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-eureka/src/main/resources/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-eureka/target/classes/configs/course-release.properties" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-eureka/target/classes/configs/course-release.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-eureka/target/classes/configs/user-release.properties" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-eureka/target/classes/configs/user-release.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-eureka/target/classes/log4j2.component.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-eureka/target/classes/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-gateway/src/main/resources/log4j2.component.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-gateway/src/main/resources/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-gateway/target/classes/log4j2.component.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-gateway/target/classes/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-common/src/main/resources/log4j2.component.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-common/src/main/resources/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-common/target/classes/log4j2.component.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-common/target/classes/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-course/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-course/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-course/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-course/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-course/src/main/resources/log4j2.component.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-course/src/main/resources/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-course/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-course/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-course/target/classes/log4j2.component.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-course/target/classes/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-eureka/target/homepage-eureka-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-eureka/target/homepage-eureka-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-eureka/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-eureka/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-eureka/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-gateway/target/homepage-gateway-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-gateway/target/homepage-gateway-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-gateway/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-common/target/homepage-common-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-common/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-course/target/homepage-course-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-course/target/homepage-course-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-course/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-course/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-course/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/src/main/java/com/swust/homepage/client/CourseClientHystrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-user/src/main/java/com/swust/homepage/client/CourseClientHystrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-user/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/src/main/resources/log4j2.component.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/src/main/resources/log4j2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/log4j2.component.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/course/house-debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-user/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/course/house-error.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/course/house-info.2020-08-13-20.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/course/house-info.2020-08-13-21.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/course/house-info.2020-08-15-08.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/course/house-info.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/course/house-warn.2020-08-13-20.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/course/house-warn.2020-08-13-21.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/course/house-warn.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/eureka/house-debug.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/eureka/house-error.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/eureka/house-info.2020-08-13-20.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/eureka/house-info.2020-08-13-21.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/eureka/house-info.2020-08-15-08.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/eureka/house-info.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/eureka/house-warn.2020-08-13-20.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/eureka/house-warn.2020-08-13-21.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/eureka/house-warn.2020-08-15-08.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/eureka/house-warn.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/gateway/house-debug.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/gateway/house-error.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/gateway/house-info.2020-08-13-20.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/gateway/house-info.2020-08-13-21.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/gateway/house-info.2020-08-15-08.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/gateway/house-info.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/gateway/house-warn.2020-08-13-20.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/gateway/house-warn.2020-08-13-21.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/gateway/house-warn.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/user/house-debug.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/user/house-error.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/user/house-info.2020-08-13-20.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/user/house-info.2020-08-13-21.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/user/house-info.2020-08-15-08.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/user/house-info.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/user/house-warn.2020-08-13-20.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/user/house-warn.2020-08-13-21.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/user/house-warn.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/com/swust/homepage/client/CourseClientHystrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-service/homepage-user/target/classes/com/swust/homepage/client/CourseClientHystrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/homepage-user-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/homepage-user-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-service/homepage-user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/house-info-course.2020-09-14.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/house-info-eureka.2020-09-14.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/house-info-gateway.2020-09-14.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/house-info-user.2020-09-14.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +138,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.HomepageUserApplication">
+  <component name="RunManager" selected="Spring Boot.EurekaApplication">
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="homepage-eureka" />
       <extension name="coverage">
@@ -305,7 +255,11 @@
       <workItem from="1599978559480" duration="887000" />
       <workItem from="1599980690323" duration="782000" />
       <workItem from="1599985487431" duration="804000" />
-      <workItem from="1600090706715" duration="2299000" />
+      <workItem from="1600090706715" duration="2546000" />
+      <workItem from="1603198838904" duration="3365000" />
+      <workItem from="1603203018962" duration="97000" />
+      <workItem from="1603203571472" duration="669000" />
+      <workItem from="1603204260416" duration="2791000" />
     </task>
     <servers />
   </component>
@@ -340,42 +294,42 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="488" y="230" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.680@0.0.1280.680" timestamp="1597240985645" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1597453671760">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1603200223183">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1597453671760" />
-    <state width="905" height="198" key="GridCell.Tab.0.bottom" timestamp="1600094248245">
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1603200223183" />
+    <state width="905" height="198" key="GridCell.Tab.0.bottom" timestamp="1603204416375">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="905" height="198" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600094248245" />
-    <state width="905" height="198" key="GridCell.Tab.0.center" timestamp="1600094248245">
+    <state width="905" height="198" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603204416375" />
+    <state width="905" height="198" key="GridCell.Tab.0.center" timestamp="1603204416374">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="905" height="198" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600094248245" />
-    <state width="905" height="198" key="GridCell.Tab.0.left" timestamp="1600094248245">
+    <state width="905" height="198" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1603204416374" />
+    <state width="905" height="198" key="GridCell.Tab.0.left" timestamp="1603204416374">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="905" height="198" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600094248245" />
-    <state width="905" height="198" key="GridCell.Tab.0.right" timestamp="1600094248245">
+    <state width="905" height="198" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1603204416374" />
+    <state width="905" height="198" key="GridCell.Tab.0.right" timestamp="1603204416375">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="905" height="198" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600094248245" />
-    <state width="905" height="198" key="GridCell.Tab.1.bottom" timestamp="1600094248245">
+    <state width="905" height="198" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1603204416375" />
+    <state width="905" height="198" key="GridCell.Tab.1.bottom" timestamp="1603204416375">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="905" height="198" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600094248245" />
-    <state width="905" height="198" key="GridCell.Tab.1.center" timestamp="1600094248245">
+    <state width="905" height="198" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603204416375" />
+    <state width="905" height="198" key="GridCell.Tab.1.center" timestamp="1603204416375">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="905" height="198" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1600094248245" />
-    <state width="905" height="198" key="GridCell.Tab.1.left" timestamp="1600094248245">
+    <state width="905" height="198" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1603204416375" />
+    <state width="905" height="198" key="GridCell.Tab.1.left" timestamp="1603204416375">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="905" height="198" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1600094248245" />
-    <state width="905" height="198" key="GridCell.Tab.1.right" timestamp="1600094248245">
+    <state width="905" height="198" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1603204416375" />
+    <state width="905" height="198" key="GridCell.Tab.1.right" timestamp="1603204416375">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="905" height="198" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1600094248245" />
+    <state width="905" height="198" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1603204416375" />
     <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1597241179856">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -392,22 +346,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="134" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1597320542718" />
-    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1600090706907">
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1603204261964">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1600090706907" />
-    <state x="254" y="40" width="773" height="600" key="find.popup" timestamp="1596935217138">
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1603204261964" />
+    <state x="254" y="40" width="773" height="600" key="find.popup" timestamp="1603199743202">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="254" y="40" width="773" height="600" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1596935217138" />
+    <state x="254" y="40" width="773" height="600" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1603199743202" />
     <state x="347" y="53" key="git4idea.branch.GitSmartOperationDialog" timestamp="1596934818862">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="347" y="53" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.680@0.0.1280.680" timestamp="1596934818862" />
-    <state x="56" y="29" key="new project wizard" timestamp="1599358809731">
+    <state x="56" y="29" key="new project wizard" timestamp="1603200248613">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="56" y="29" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1599358809731" />
+    <state x="56" y="29" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1603200248613" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1600091536807">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

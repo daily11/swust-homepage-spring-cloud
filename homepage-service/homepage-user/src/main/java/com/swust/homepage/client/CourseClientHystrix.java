@@ -5,6 +5,8 @@ import com.swust.homepage.entity.vo.CODE;
 import com.swust.homepage.entity.vo.Result;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.Collections;
 import java.util.List;
